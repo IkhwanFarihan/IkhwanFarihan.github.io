@@ -1,0 +1,10 @@
+* {
+  font-family: "Poppins", sans-serif;
+}
+.container .card {
+  width: 100%px;
+  height: 100vh;
+  background-color: #212529;
+
+  border-style: none;
+}
