@@ -50,8 +50,8 @@ a {
   cursor: pointer;
 }
 #card .card1:hover {
-  background: linear-gradient(180deg, #ff0000 0%, rgba(121, 84, 84, 0) 182.52%) !important;
-  color: white !important;
+  background: linear-gradient(180deg, #c8ff00 0%, rgba(121, 84, 84, 0) 182.52%) !important;
+  color: black !important;
   border-radius: 30px !important;
 }
 
@@ -69,7 +69,7 @@ a {
   cursor: pointer;
 }
 #project .card2:hover {
-  background: linear-gradient(180deg, #ff0000 0%, rgba(121, 84, 84, 0) 182.52%) !important;
+  background: linear-gradient(180deg, #c8ff00 0%, rgba(121, 84, 84, 0) 182.52%) !important;
   color: white !important;
   border-radius: 30px !important;
 }
