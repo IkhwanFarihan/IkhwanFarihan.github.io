@@ -54,7 +54,16 @@
                 <option value="Gadget">Gadget</option>
               </select>
             </div>
+        </div>
+        <div class="row">
+          <div class="col-md-8 mt-5 justify-content-center mx-auto">
+            <div class="input-group">
+
+              <textarea name="tambahan" id="tambahan" cols="100" rows="5" placeholder="Tambahan" class="mb-3 p-3"></textarea>
+            </div>
           </div>
+        </div>
+         
           <div class="row mt-5">
             <div class="col-md-12">
                 <input type="submit" name="submit" id="submit" class="btn btn-danger" onclick="gotowhatsapp()" ondblclick="openPopup()" value="Hantar" >
@@ -68,9 +77,10 @@
         {
             var logo = document.getElementById("logo").value;
             var jenis = document.getElementById("jenis").value;
+            var tambahan = document.getElementById("tambahan").value;
 
 
-            var url = "https://wa.me/60108451587?text=" + "Logo: " + logo + "%0a" + "Jenis: " + jenis + "%0a";
+            var url = "https://wa.me/60108451587?text=" + "Logo: " + logo + "%0a" + "Jenis: " + jenis + "%0a" + "Tambahan: " + tambahan + "%0a";
 
             window.open(url, "_blank").focus();
         }
